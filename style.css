@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: gray;
+  padding: 15px 20px;
+  display: flex;
+}
+.card {
+  background-color: bisque;
+  width: 400px;
+  border-radius: 20px;
+  padding: 0px 0px 22px 0px;
+  margin: 13px 40px;
+}
+.image {
+  padding: 20px;
+}
+.image img {
+  border-radius: 20px;
+}
+.content h2 {
+  font-size: 45px;
+  padding: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.content p {
+  padding: 16px;
+  color: gray;
+  font-family: "Roboto Mono", monospace;
+}
+.tags {
+  padding: 0px 19px;
+}
+.tags span {
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 4px 9px;
+}
+.button {
+  text-align: center;
+}
+.button button {
+  border-radius: 12px;
+  padding: 2px 8px;
+  background-color: rgb(164, 241, 247);
+  color: blue;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+}
+#elec {
+  background-color: gold;
+  font-family: monospace;
+}
+#wind {
+  background-color: lavender;
+  font-family: monospace;
+  margin-left: 8px;
+}
+#ice {
+  background-color: deepskyblue;
+}
+#fire {
+  background-color: red;
+}
+.button button:hover{
+  background-color: #ffb703;
+  color: white;
+}
